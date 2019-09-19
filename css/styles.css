@@ -8,12 +8,12 @@ Body {
 }
 
 img {
-    width: 100%;
+    width: 75%;
 }
 
 .portfolio {
     display: grid;
-    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-template: auto auto auto auto / 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
   }
