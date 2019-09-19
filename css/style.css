@@ -1,0 +1,19 @@
+Body {
+    color: blue;
+    padding: 10px;
+}
+
+.bg-light{
+    background-color: white !important;
+}
+
+img {
+    width: 100%;
+}
+
+.portfolio {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
